@@ -13,8 +13,8 @@
     "scoring_policy": "keep_highest",
     "allowed_attempts": 3,
     "one_question_at_a_time": true,
-    "question_count": 16,
-    "points_possible": 16.0,
+    "question_count": 13,
+    "points_possible": 13.0,
     "cant_go_back": false,
     "access_code": null,
     "ip_filter": null,
@@ -71,7 +71,7 @@
     "only_visible_to_overrides": false,
     "assignment_group_id": 6376,
     "show_correct_answers_last_attempt": true,
-    "version_number": 5,
+    "version_number": 6,
     "has_access_code": false,
     "post_to_sis": false,
     "migration_id": "g64798bdb5aa68137dfd2e440d1324a93",
@@ -100,7 +100,7 @@
       "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/3299/pages/active-record-mechanics\">Active Record Mechanics</a></li></ul><p></p>",
       "answers": [
         {
-          "id": 2984,
+          "id": 1746,
           "text": "",
           "html": "<div class=\"highlight\"><pre class=\"highlight ruby\"><code><span class=\"k\">class</span> <span class=\"nc\">Car</span> <span class=\"o\">&lt;</span> <span class=\"no\">ActiveRecord</span><span class=\"o\">::</span><span class=\"no\">Base</span>\n<span class=\"k\">end</span>\n</code></pre></div>",
           "comments": "",
@@ -108,7 +108,7 @@
           "weight": 100.0
         },
         {
-          "id": 6619,
+          "id": 7889,
           "text": "",
           "html": "<div class=\"highlight\"><pre class=\"highlight ruby\"><code><span class=\"k\">class</span> <span class=\"nc\">Car</span> <span class=\"o\">&lt;</span> <span class=\"no\">ActiveRecord</span>\n<span class=\"k\">end</span>\n</code></pre></div>",
           "comments": "",
@@ -116,7 +116,7 @@
           "weight": 0.0
         },
         {
-          "id": 9736,
+          "id": 4469,
           "text": "",
           "html": "<div class=\"highlight\"><pre class=\"highlight ruby\"><code><span class=\"k\">class</span> <span class=\"nc\">Car</span> <span class=\"o\">&lt;</span> <span class=\"no\">ActiveRecord</span><span class=\"ss\">:Base</span>\n<span class=\"k\">end</span>\n</code></pre></div>",
           "comments": "",
@@ -124,7 +124,7 @@
           "weight": 0.0
         },
         {
-          "id": 8296,
+          "id": 1469,
           "text": "",
           "html": "<div class=\"highlight\"><pre class=\"highlight ruby\"><code><span class=\"k\">class</span> <span class=\"nc\">Car</span> <span class=\"o\">&gt;</span> <span class=\"no\">ActiveRecord</span><span class=\"o\">::</span><span class=\"no\">Base</span>\n<span class=\"k\">end</span>\n</code></pre></div>",
           "comments": "",
@@ -132,7 +132,7 @@
           "weight": 0.0
         },
         {
-          "id": 4214,
+          "id": 7226,
           "text": "",
           "html": "<p>I don't know.</p>",
           "comments": "",
@@ -165,49 +165,49 @@
       "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/3299/pages/active-record-mechanics\">Active Record Mechanics</a></li></ul><p></p>",
       "answers": [
         {
-          "id": 55,
+          "id": 6465,
           "text": ".column_names",
           "left": ".column_names",
           "right": "Retrieve list of table columns",
           "comments": "",
-          "comments_html": "<p>Not quite. This class method gets some data. What data might it get?</p>",
-          "match_id": 8094
+          "comments_html": "",
+          "match_id": 1313
         },
         {
-          "id": 2243,
+          "id": 8007,
           "text": ".create",
           "left": ".create",
           "right": "Add a new entry in the database",
           "comments": "",
-          "comments_html": "<p>With this method we can directly insert new rows into the database. Which answer\ndo you think best fits this behavior?</p>",
-          "match_id": 123
+          "comments_html": "",
+          "match_id": 5995
         },
         {
-          "id": 7839,
+          "id": 713,
           "text": ".find",
           "left": ".find",
           "right": "Retrieve a single record by id",
           "comments": "",
-          "comments_html": "<p>We can't use any attribute to retrieve data with this method. Which attribute\ndoes it search with?</p>",
-          "match_id": 2233
+          "comments_html": "",
+          "match_id": 8180
         },
         {
-          "id": 6569,
+          "id": 5903,
           "text": ".find_by",
           "left": ".find_by",
           "right": "Retrieve a single record by any attribute",
           "comments": "",
-          "comments_html": "<p>This method is very flexible. Which attribute, or attributes, can we search\nwith?</p>",
-          "match_id": 7536
+          "comments_html": "",
+          "match_id": 9393
         },
         {
-          "id": 809,
+          "id": 2207,
           "text": "#save",
           "left": "#save",
           "right": "Save a new entry or save changes to an existing entry",
           "comments": "",
-          "comments_html": "<p>Before using this method, we must first instantiate an object representing a\ntable row. This object could represent an existing or new row. We can then\nmodify attributes on that object, and then call this method on it. What best\ndescribes this method's behavior?</p>",
-          "match_id": 1105
+          "comments_html": "",
+          "match_id": 8310
         }
       ],
       "variables": null,
@@ -217,35 +217,35 @@
       "matches": [
         {
           "text": "Retrieve list of table columns",
-          "match_id": 8094
+          "match_id": 1313
         },
         {
           "text": "Add a new entry in the database",
-          "match_id": 123
+          "match_id": 5995
         },
         {
           "text": "Retrieve a single record by id",
-          "match_id": 2233
+          "match_id": 8180
         },
         {
           "text": "Retrieve a single record by any attribute",
-          "match_id": 7536
+          "match_id": 9393
         },
         {
           "text": "Save a new entry or save changes to an existing entry",
-          "match_id": 1105
+          "match_id": 8310
         },
         {
           "text": "I don't know.",
-          "match_id": 7166
+          "match_id": 5440
         },
         {
           "text": "Retrieve a record by name",
-          "match_id": 8816
+          "match_id": 3167
         },
         {
           "text": "Update column names",
-          "match_id": 1358
+          "match_id": 8164
         }
       ],
       "matching_answer_incorrect_matches": "I don't know.\nRetrieve a record by name\nUpdate column names"
@@ -268,7 +268,7 @@
       "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/3299/pages/active-record-mechanics\">Active Record Mechanics</a></li></ul><p></p>",
       "answers": [
         {
-          "id": 5820,
+          "id": 6254,
           "text": "",
           "html": "<div class=\"highlight\"><pre class=\"highlight ruby\"><code><span class=\"no\">Car</span><span class=\"p\">.</span><span class=\"nf\">find_by</span><span class=\"p\">(</span><span class=\"ss\">make: </span><span class=\"s2\">\"DeLorean\"</span><span class=\"p\">)</span>\n</code></pre></div>",
           "comments": "",
@@ -276,7 +276,7 @@
           "weight": 100.0
         },
         {
-          "id": 4411,
+          "id": 5468,
           "text": "",
           "html": "<div class=\"highlight\"><pre class=\"highlight ruby\"><code><span class=\"no\">Car</span><span class=\"p\">.</span><span class=\"nf\">find</span><span class=\"p\">(</span><span class=\"ss\">make: </span><span class=\"s2\">\"DeLorean\"</span><span class=\"p\">)</span>\n</code></pre></div>",
           "comments": "",
@@ -284,7 +284,7 @@
           "weight": 0.0
         },
         {
-          "id": 7171,
+          "id": 8915,
           "text": "",
           "html": "<div class=\"highlight\"><pre class=\"highlight ruby\"><code><span class=\"no\">Car</span><span class=\"p\">.</span><span class=\"nf\">filter</span><span class=\"p\">(</span><span class=\"ss\">make: </span><span class=\"s2\">\"DeLorean\"</span><span class=\"p\">)</span>\n</code></pre></div>",
           "comments": "",
@@ -292,7 +292,7 @@
           "weight": 0.0
         },
         {
-          "id": 4688,
+          "id": 9151,
           "text": "",
           "html": "<p>I don't know.</p>",
           "comments": "",
@@ -325,7 +325,7 @@
       "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/3299/assignments/74081\">Intro to Rake</a></li></ul><p></p>",
       "answers": [
         {
-          "id": 1365,
+          "id": 4495,
           "text": "",
           "comments": "",
           "comments_html": "<p>Yes! We can use Rake in Ruby and code our tasks with Ruby.</p>",
@@ -333,7 +333,7 @@
           "html": "<p>It's used with Ruby</p>"
         },
         {
-          "id": 5067,
+          "id": 8580,
           "text": "",
           "comments": "",
           "comments_html": "<p>Fantastic! If we need to run certain tasks over and over, Rake can help us.</p>",
@@ -341,7 +341,7 @@
           "html": "<p>It automates certain jobs</p>"
         },
         {
-          "id": 5041,
+          "id": 1294,
           "text": "",
           "comments": "",
           "comments_html": "<p>Exactly! We run our tasks by typing <code>rake task_name</code> in the command line.</p>",
@@ -349,7 +349,7 @@
           "html": "<p>It lets us define tasks that can be executed from the command line</p>"
         },
         {
-          "id": 3789,
+          "id": 8893,
           "text": "",
           "comments": "",
           "comments_html": "<p>Not quite. We don't use BASH to code our scripts. Which language do we use?</p>",
@@ -357,7 +357,7 @@
           "html": "<p>We write Rake scripts in BASH</p>"
         },
         {
-          "id": 758,
+          "id": 8396,
           "text": "",
           "comments": "",
           "comments_html": "<p><code>Makefile</code> are for C developers. What is the name of the file that stores our\nRake tasks?</p>",
@@ -365,7 +365,7 @@
           "html": "<p>We define our tasks in a file called <code>Makefile</code></p>"
         },
         {
-          "id": 810,
+          "id": 2579,
           "text": "",
           "comments": "",
           "comments_html": "<p>Be sure to study the source/s for this question. You'll get it next time.</p>",
@@ -398,7 +398,7 @@
       "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/3299/assignments/74082\">Active Record Migrations</a></li></ul><p></p>",
       "answers": [
         {
-          "id": 8933,
+          "id": 6730,
           "text": "",
           "comments": "",
           "comments_html": "<p>So true! We can use Ruby instead, and let Active Record generate the correct\nSQL under the hood.</p>",
@@ -406,7 +406,7 @@
           "html": "<p>We no longer have to write SQL to create or change tables</p>"
         },
         {
-          "id": 3690,
+          "id": 4744,
           "text": "",
           "comments": "",
           "comments_html": "<p>Yes! If we create a migration for every change we make, we have a history of\nchanges available and we can undo them with more migrations.</p>",
@@ -414,7 +414,7 @@
           "html": "<p>It's like version control for your database - you can easily revert changes</p>"
         },
         {
-          "id": 8020,
+          "id": 9655,
           "text": "",
           "comments": "",
           "comments_html": "<p>Right on! Since all the instructions needed to generate the database is\ncontained in the migration files, any developer who wants to work on our\napplication can run the migrations to generate a database with the same\nstructure.</p>",
@@ -422,7 +422,7 @@
           "html": "<p>Any developer working on our project can generate the same database from scratch</p>"
         },
         {
-          "id": 4308,
+          "id": 6713,
           "text": "",
           "comments": "",
           "comments_html": "<p>Be sure to study the source/s for this question. You'll get it next time.</p>",
@@ -455,7 +455,7 @@
       "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/3299/assignments/74082\">Active Record Migrations</a></li></ul><p></p>",
       "answers": [
         {
-          "id": 288,
+          "id": 194,
           "text": "",
           "html": "<div class=\"highlight\"><pre class=\"highlight console\"><code><span class=\"gp\">$</span><span class=\"w\"> </span>rake db:migrate\n</code></pre></div>",
           "comments": "",
@@ -463,7 +463,7 @@
           "weight": 100.0
         },
         {
-          "id": 9427,
+          "id": 1798,
           "text": "",
           "html": "<div class=\"highlight\"><pre class=\"highlight console\"><code><span class=\"gp\">$</span><span class=\"w\"> </span>rake db::migrate\n</code></pre></div>",
           "comments": "",
@@ -471,7 +471,7 @@
           "weight": 0.0
         },
         {
-          "id": 5212,
+          "id": 820,
           "text": "",
           "html": "<div class=\"highlight\"><pre class=\"highlight console\"><code><span class=\"gp\">$</span><span class=\"w\"> </span>rake migrate:db\n</code></pre></div>",
           "comments": "",
@@ -479,7 +479,7 @@
           "weight": 0.0
         },
         {
-          "id": 4730,
+          "id": 7413,
           "text": "",
           "html": "<p>I don't know.</p>",
           "comments": "",
@@ -512,7 +512,7 @@
       "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/3299/pages/active-record-mechanics\">Active Record Mechanics</a></li></ul><p></p>",
       "answers": [
         {
-          "id": 9942,
+          "id": 4668,
           "text": "singular",
           "comments": "",
           "comments_html": "",
@@ -520,7 +520,7 @@
           "blank_id": "answer1"
         },
         {
-          "id": 8594,
+          "id": 5277,
           "text": "plural",
           "comments": "",
           "comments_html": "",
@@ -553,7 +553,7 @@
       "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/3299/pages/active-record-mechanics\">Active Record Mechanics</a></li></ul><p></p>",
       "answers": [
         {
-          "id": 1572,
+          "id": 8684,
           "text": "",
           "html": "<p>Set up attribute macros (<code>attr_accessor</code>, <code>attr_reader</code>, or <code>attr_writer</code>) in\nthe model file</p>",
           "comments": "",
@@ -561,7 +561,7 @@
           "weight": 100.0
         },
         {
-          "id": 3563,
+          "id": 5649,
           "text": "",
           "html": "<p>Write code to establish the connection to the database</p>",
           "comments": "",
@@ -569,7 +569,7 @@
           "weight": 0.0
         },
         {
-          "id": 4117,
+          "id": 2472,
           "text": "",
           "html": "<p>Write code to create the database table</p>",
           "comments": "",
@@ -577,7 +577,7 @@
           "weight": 0.0
         },
         {
-          "id": 2970,
+          "id": 9545,
           "text": "",
           "html": "<p>Install the Active Record gem</p>",
           "comments": "",
@@ -585,7 +585,7 @@
           "weight": 0.0
         },
         {
-          "id": 1903,
+          "id": 498,
           "text": "",
           "html": "<p>Set up the model to inherit from <code>ActiveRecord::Base</code></p>",
           "comments": "",
@@ -593,7 +593,7 @@
           "weight": 0.0
         },
         {
-          "id": 1341,
+          "id": 8255,
           "text": "",
           "html": "<p>I don't know.</p>",
           "comments": "",
@@ -626,7 +626,7 @@
       "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/3299/pages/active-record-mechanics\">Active Record Mechanics</a></li></ul><p></p>",
       "answers": [
         {
-          "id": 5548,
+          "id": 4358,
           "text": "",
           "html": "<p>True</p>",
           "comments": "",
@@ -634,7 +634,7 @@
           "weight": 0.0
         },
         {
-          "id": 7641,
+          "id": 8755,
           "text": "",
           "html": "<p>False</p>",
           "comments": "",
@@ -642,7 +642,7 @@
           "weight": 100.0
         },
         {
-          "id": 9779,
+          "id": 7000,
           "text": "",
           "html": "<p>I don't know.</p>",
           "comments": "",
@@ -675,7 +675,7 @@
       "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/3299/assignments/74082\">Active Record Migrations</a></li></ul><p></p>",
       "answers": [
         {
-          "id": 3045,
+          "id": 5132,
           "text": "",
           "html": "<p>Using migrations takes care of writing the SQL to create a table, but does not\ntake care of establishing the connection to the database.</p>",
           "comments": "",
@@ -683,7 +683,7 @@
           "weight": 100.0
         },
         {
-          "id": 5371,
+          "id": 8599,
           "text": "",
           "html": "<p>Using migrations takes care of establishing the connection to the database, but\ndoes not take care of writing the SQL to create a table.</p>",
           "comments": "",
@@ -691,7 +691,7 @@
           "weight": 0.0
         },
         {
-          "id": 9747,
+          "id": 8568,
           "text": "",
           "html": "<p>Using migrations takes care of both establishing the connection to the database\nand writing the SQL to create a table.</p>",
           "comments": "",
@@ -699,7 +699,7 @@
           "weight": 0.0
         },
         {
-          "id": 7118,
+          "id": 5798,
           "text": "",
           "html": "<p>I don't know.</p>",
           "comments": "",
@@ -732,7 +732,7 @@
       "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/3299/assignments/74082\">Active Record Migrations</a></li></ul><p></p>",
       "answers": [
         {
-          "id": 3362,
+          "id": 1437,
           "text": "",
           "comments": "",
           "comments_html": "<p>Yes! The migrations will be run in the order they were created as indicated by\nthe timestamp.</p>",
@@ -740,7 +740,7 @@
           "html": "<p>It ensures that the migrations are run in the right order.</p>"
         },
         {
-          "id": 6567,
+          "id": 9317,
           "text": "",
           "comments": "",
           "comments_html": "<p>Yes! The timestamp is used like version control to ensure that migrations are\nonly run once.</p>",
@@ -748,7 +748,7 @@
           "html": "<p>It helps ensure that each migration is only run once.</p>"
         },
         {
-          "id": 4284,
+          "id": 1842,
           "text": "",
           "comments": "",
           "comments_html": "<p>Try again! To roll back (undo) a migration, Active Record refers to content\nwritten in the migration in the <code>change</code> or <code>down</code> method (e.g., removing a\ntable or column that was created; reversing a change made to a column), not\nthe timestamp.</p>",
@@ -756,7 +756,7 @@
           "html": "<p>Active Record uses the timestamp to figure out how to revert a migration.</p>"
         },
         {
-          "id": 116,
+          "id": 1686,
           "text": "",
           "comments": "",
           "comments_html": "<p>Try again! We want our filenames to be as descriptive as possible of the actual\nchange being made, so it doesn't make sense to reuse names.</p>",
@@ -789,7 +789,7 @@
       "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/3299/assignments/74082\">Active Record Migrations</a></li></ul><p></p>",
       "answers": [
         {
-          "id": 4809,
+          "id": 6399,
           "text": "",
           "html": "<p>True</p>",
           "comments": "",
@@ -797,7 +797,7 @@
           "weight": 0.0
         },
         {
-          "id": 228,
+          "id": 3588,
           "text": "",
           "html": "<p>False</p>",
           "comments": "",
@@ -805,7 +805,7 @@
           "weight": 100.0
         },
         {
-          "id": 5357,
+          "id": 2059,
           "text": "",
           "html": "<p>I don't know.</p>",
           "comments": "",
@@ -838,7 +838,7 @@
       "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/3299/assignments/74086\">Active Record Querying Methods Lab</a></li></ul><p></p>",
       "answers": [
         {
-          "id": 337,
+          "id": 6899,
           "text": "",
           "html": "<p><code>#sort</code></p>",
           "comments": "",
@@ -846,7 +846,7 @@
           "weight": 100.0
         },
         {
-          "id": 5667,
+          "id": 9510,
           "text": "",
           "html": "<p><code>#where</code></p>",
           "comments": "",
@@ -854,7 +854,7 @@
           "weight": 0.0
         },
         {
-          "id": 4313,
+          "id": 8590,
           "text": "",
           "html": "<p><code>#first</code></p>",
           "comments": "",
@@ -862,7 +862,7 @@
           "weight": 0.0
         },
         {
-          "id": 5485,
+          "id": 9374,
           "text": "",
           "html": "<p><code>#maximum</code></p>",
           "comments": "",
@@ -870,7 +870,7 @@
           "weight": 0.0
         },
         {
-          "id": 6479,
+          "id": 8758,
           "text": "",
           "html": "<p>I don't know.</p>",
           "comments": "",
